@@ -27,7 +27,7 @@ x_tst = sc.fit_transform(x_tst)
 knn = KNeighborsClassifier(n_neighbors = 5 )
 knn.fit(x_trn,y_trn)
 
-# predicting the train test result
+# predicting the test result
 predicted= knn.predict(x_tst)
 print(predicted)
       
