@@ -1,17 +1,35 @@
-Predicting whether the client would buy a car or not
+# Social_Network_Ads_Classification
 
-Using the KNN algorithm, Desicion Tree algorithm and Random Forest algorithm from Classification algorithms (Supervised)
 
-The code is in Python and it is using the Scikit-learn (Sklearn) library
+## Project Intro
+The purpose of this project is implementing classification algorithms on the Social Network Ads dataset and calculating and comparing the accuracy of them.
 
-Dataset: The 'Social_Network_Ads' dataset
-The dataset has these features: User ID, Gender, Age, EstimatedSalary, Purchased.
-The 'Purchased' column is the lables and we put it in a 'y' variable.
-We make the predictions based on these two features: Age, EstimatedSalary
+### Methods Used
+* Data Preprocessing
+* Data Scaling
+* Machine Learning (Classification algorithms)
+* Predictive Modeling
+* Performance Evaluation
 
-KNN Algorithm: After preparing the dataset, we fit the KNN algorithm to the training dataset and then we can show the predicted labels for the testing dataset.
-Lastly, we can calculate the accuracy and then plot the confusion matrix for better understanding the performance.
+### Technologies
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Scikit-learn](https://scikit-learn.org/stable/)
 
-DecisionTree Algorithm: We can use the decision tree algorithm from sklearn to classify the training dataset. In this Decision Tree algorithm we want to choose the decision nods with the best gain and to reduce and decrease the entropy. Entropy measures data impurity and gain measures the redusction of the entropy.
-We can use the 'predict' function to get predicted results for the testing dataset and use it for comparison against the actual testing labels.
-Lastly we can use confusion matrix and calculate the performance.
+## Project Description
+In machine learning, classification is a supervised learning and it refers to a predictive modeling problem where a class label is predicted for a given example of input data.
+
+The classification of social media ads is all about analyzing the ads for classifying whether your target audience will buy the product or not. It’s a great use case for data science in marketing.
+
+Some of the best classification algorithms are KNN and Decision Trees. These algorithms have been implemented in this project on the same dataset and the accuracy of them has been calculated. The difference between them can be shown by comparing the results. Often the algorithm which has the best performance gets chosen for the purpose.
+
+Confusion Matrix of the KNN algorithm is [here](https://github.com/Unisepp/Classification/blob/main/KNN_SocialNetworkAds/Confusion%20Matrix_KNN.png).
+Confusion Matrix of the Decision Tree is [here](https://github.com/Unisepp/Classification/blob/main/KNN_SocialNetworkAds/Confusion%20Matrix_DecisionTree.png).
+
+## Getting Started
+
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. The Social_Network_Ads dataset is stored [here](https://github.com/Unisepp/Classification/blob/main/KNN_SocialNetworkAds/Social_Network_Ads.csv)
+3. Data preprocessing and transformation scripts are being kept [here](https://github.com/Unisepp/Classification/blob/main/KNN_SocialNetworkAds/KNN_SocialNetworkAds.py)
+
+
