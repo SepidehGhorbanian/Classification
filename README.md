@@ -35,7 +35,7 @@ Confusion Matrix of the Decision Tree:
 ## Getting Started
 
 1. Download and install python on your computer
-2. Install Scikit-learn library
+2. Make sure to install libraries that have been mentioned before in the 'Technologies' section of the text, if you don't already have them
 3. You can either directly download this repo or clone it (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)) 
 4. The Social_Network_Ads dataset is stored [here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/Social_Network_Ads.csv)
 5. Data preprocessing and transformation scripts are being kept [here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/SocialNetworkAds.py)
