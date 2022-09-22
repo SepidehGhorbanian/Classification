@@ -25,17 +25,19 @@ Some of the best classification algorithms are KNN and Decision Trees. These alg
 
 Confusion Matrix of the KNN algorithm:
 
-![here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/Confusion%20Matrix_KNN.png).
+![here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/Confusion%20Matrix_KNN.png)
 
 Confusion Matrix of the Decision Tree:
 
-![here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/Confusion%20Matrix_DecisionTree.png).
+![here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/Confusion%20Matrix_DecisionTree.png)
 
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
-2. The Social_Network_Ads dataset is stored [here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/Social_Network_Ads.csv)
-3. Data preprocessing and transformation scripts are being kept [here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/SocialNetworkAds.py)
-
+1. Download and install python on your computer
+2. Install Scikit-learn library
+3. You can either directly download this repo or clone it (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)) 
+4. The Social_Network_Ads dataset is stored [here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/Social_Network_Ads.csv)
+5. Data preprocessing and transformation scripts are being kept [here](https://github.com/Unisepp/Classification/blob/main/SocialNetworkAds/SocialNetworkAds.py)
+6. Run the code in python and see the results
 
